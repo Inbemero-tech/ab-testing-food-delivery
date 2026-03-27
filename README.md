@@ -30,41 +30,13 @@ Se procesaron más de 240k registros para evaluar el embudo de ventas y la reten
 
 ## ✅ Conclusión del Proyecto
 > "No se encontró evidencia estadística suficiente para rechazar la hipótesis nula. El cambio de fuente es seguro para el despliegue, ya que no altera significativamente el comportamiento del usuario ni la tasa de conversión final ($p > \text{umbral corregido}$)."
-=======
-# 📱 Análisis de Comportamiento y A/B Testing
-**Stack:** Python (Pandas, Scipy, Plotly)
-
-Este proyecto analiza el impacto de un cambio de diseño en una aplicación de alimentos.
-Se procesaron más de 240k registros para evaluar el embudo de ventas y la retención.
-
-## 🎯 Objetivo del Negocio
-* **Analizar el embudo de conversión** para detectar fugas críticas de usuarios en el proceso de compra.
-* **Evaluar los resultados de un test A/A/B** utilizando métodos de estadística inferencial para validar cambios en la interfaz.
-* **Alineación con Riesgo:** Asegurar que las modificaciones en el producto no introduzcan riesgos operativos, sesgos de comportamiento o caídas en la rentabilidad del negocio.
-
-## 🛠️ Stack Tecnológico
-* **Lenguaje:** Python 🐍
-* **Librerías de Análisis:** `Pandas`, `Numpy`
-* **Estadística:** `Scipy.stats` (Z-test)
-* **Visualización:** `Matplotlib`, `Seaborn`, `Plotly`
-
-## 📈 Hallazgos Clave (Data Insights)
-* **Embudo Crítico:** Se identificó que el **38% de los usuarios se pierden después de la pantalla de inicio**. Esta es la zona de mayor riesgo identificada para la retención del negocio.
-* **Consistencia de Datos:** Se implementó una limpieza profunda y filtrado de periodos incompletos para evitar sesgos temporales, trabajando con un dataset robusto de **~240,000 eventos**.
-
-## ⚖️ Metodología de Experimentación
-> *Este apartado destaca el rigor analítico aplicado para garantizar la fiabilidad de los resultados.*
-
-1. **Validación A/A:** Comparación de dos grupos de control para asegurar que la división de usuarios fuera equitativa y el mecanismo de test fuera fiable antes de evaluar el cambio.
-2. **Test A/B:** Utilización de la **Prueba Z para Proporciones** para comparar los grupos de control contra el grupo de prueba.
-3. **Control de Riesgo Estadístico:** Implementación de la **Corrección de Bonferroni** para ajustar el nivel de significancia ($\alpha = 0.05$) ante la ejecución de múltiples comparaciones, mitigando el riesgo de **Error Tipo I (falsos positivos)**.
-
-## ✅ Conclusión del Proyecto
-> "No se encontró evidencia estadística suficiente para rechazar la hipótesis nula. El cambio de fuente es seguro para el despliegue, ya que no altera significativamente el comportamiento del usuario ni la tasa de conversión final ($p > \text{umbral corregido}$)."
 
 ## Datos
-Este proyecto utiliza el dataset 'logs_exp_us.csv' proporcionado por [Practicum/TripeTen] para fines educativos.
+Este proyecto utiliza el dataset `logs_exp_us.csv` proporcionado por **TripleTen** para fines de análisis estadístico.
 
-Para obtener los datos:
-1. Ejecuta la primera celda del notebook (descarga automática).
-2. Descarga el dataset desde 'https://code.s3.yandex.net/datasets/logs_exp_us.csv' la plataforma oficial y colocalo en la carpeta /data/
+Para replicar este análisis, tienes dos opciones:
+- **Automatizada:** Ejecuta la primera celda del notebook (descarga automática).
+- **Manual:** 
+    1. Descarga el dataset desde la [fuente oficial](https://code.s3.yandex.net/datasets/logs_exp_us.csv).
+    2. Crea una carpeta llamada `/data/` en la raíz del proyecto.
+    3. Coloca el dataset `logs_exp_us.csv` dentro de esa carpeta.
