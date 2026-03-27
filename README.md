@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📱 Análisis de Comportamiento y A/B Testing
 **Stack:** Python (Pandas, Scipy, Plotly)
 
@@ -20,7 +19,7 @@ Se procesaron más de 240k registros para evaluar el embudo de ventas y la reten
 * **Embudo Crítico:** Se identificó que el **38% de los usuarios se pierden después de la pantalla de inicio**. Esta es la zona de mayor riesgo identificada para la retención del negocio.
 * **Consistencia de Datos:** Se implementó una limpieza profunda y filtrado de periodos incompletos para evitar sesgos temporales, trabajando con un dataset robusto de **~240,000 eventos**.
 
-![Análisis de Embudo](newplot_1.png)
+![Análisis de Embudo](images/newplot_1.png)
 
 ## ⚖️ Metodología de Experimentación
 > *Este apartado destaca el rigor analítico aplicado para garantizar la fiabilidad de los resultados.*
@@ -62,4 +61,3 @@ Se procesaron más de 240k registros para evaluar el embudo de ventas y la reten
 
 ## ✅ Conclusión del Proyecto
 > "No se encontró evidencia estadística suficiente para rechazar la hipótesis nula. El cambio de fuente es seguro para el despliegue, ya que no altera significativamente el comportamiento del usuario ni la tasa de conversión final ($p > \text{umbral corregido}$)."
->>>>>>> 09320f7449560f13f94b6219eb229401cfe7dc06
