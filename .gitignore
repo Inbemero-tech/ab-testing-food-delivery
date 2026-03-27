@@ -1,0 +1,20 @@
+# Datasets y archivos de datos
+*.csv
+*.xlsx
+*.json
+data/
+
+#Archivos de Python
+__pycahe__/
+*.pyc
+*.pyo
+.env
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+#Sistema operativo
+.DS_Store
+Thumbs.db
+EOF

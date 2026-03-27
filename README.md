@@ -61,3 +61,10 @@ Se procesaron más de 240k registros para evaluar el embudo de ventas y la reten
 
 ## ✅ Conclusión del Proyecto
 > "No se encontró evidencia estadística suficiente para rechazar la hipótesis nula. El cambio de fuente es seguro para el despliegue, ya que no altera significativamente el comportamiento del usuario ni la tasa de conversión final ($p > \text{umbral corregido}$)."
+
+## Datos
+Este proyecto utiliza el dataset 'logs_exp_us.csv' proporcionado por [Practicum/TripeTen] para fines educativos.
+
+Para obtener los datos:
+1. Ejecuta la primera celda del notebook (descarga automática).
+2. Descarga el dataset desde 'https://code.s3.yandex.net/datasets/logs_exp_us.csv' la plataforma oficial y colocalo en la carpeta /data/
