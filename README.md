@@ -19,6 +19,8 @@ Se procesaron más de 240k registros para evaluar el embudo de ventas y la reten
 * **Embudo Crítico:** Se identificó que el **38% de los usuarios se pierden después de la pantalla de inicio**. Esta es la zona de mayor riesgo identificada para la retención del negocio.
 * **Consistencia de Datos:** Se implementó una limpieza profunda y filtrado de periodos incompletos para evitar sesgos temporales, trabajando con un dataset robusto de **~240,000 eventos**.
 
+![Análisis de Embudo](images/plot_1.png)
+
 ## ⚖️ Metodología de Experimentación
 > *Este apartado destaca el rigor analítico aplicado para garantizar la fiabilidad de los resultados.*
 
